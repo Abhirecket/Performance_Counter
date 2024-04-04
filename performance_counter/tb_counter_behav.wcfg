@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_counter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_counter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="335.001 ns"></ZoomEndTime>
+      <Cursor1Time time="232.835 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="254"></NameColumnWidth>
+      <ValueColumnWidth column_width="240"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wave_markers>
+      <marker time="95000" label="" />
+      <marker time="125000" label="" />
+      <marker time="55000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_counter/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter/dut/trigger_i" type="logic">
+      <obj_property name="ElementShortName">trigger_i</obj_property>
+      <obj_property name="ObjectShortName">trigger_i</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter/dut/req_i" type="logic">
+      <obj_property name="ElementShortName">req_i</obj_property>
+      <obj_property name="ObjectShortName">req_i</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter/dut/count_o" type="array">
+      <obj_property name="ElementShortName">count_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_o[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter/dut/count_q" type="array">
+      <obj_property name="ElementShortName">count_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_q[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter/dut/count_nxt" type="array">
+      <obj_property name="ElementShortName">count_nxt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_nxt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter/dut/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
