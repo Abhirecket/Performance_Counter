@@ -27,6 +27,9 @@ The module consists of the following components:
    - The module does not specify a design name, project name, or target devices.
    - It is created by ABHISHEK KUMAR KUSHWAHA, affiliated with the College of VLSI.
    - The file was created on 04.04.2024.
+6. **Waveform**:
+   There are 3 possible corner cases, you can see at pointed marker location.
+   <img width="671" alt="image" src="https://github.com/Abhirecket/Performance_Counter/assets/46784291/61b5f4d3-5338-4eb0-af9d-1f9e99e69cc6">
 
 This module provides a flexible and reusable counter implementation suitable for various digital design applications.
 
